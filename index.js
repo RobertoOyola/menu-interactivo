@@ -1,15 +1,15 @@
 var opcion = 0;
 
 if(opcion == 1){
-    var numeroacomprobar = 11;
+    var numeroacomprobar = 0;
 
-    if (numeroacomprobar == 10){
+    if (numeroacomprobar == 0){
         console.log(`su numero es un ${numeroacomprobar}`)
     }else{
-        if(numeroacomprobar > 10){
-            console.log(`el numero ${numeroacomprobar} es mayor a 10`)
+        if(numeroacomprobar < 0){
+            console.log(`el numero ${numeroacomprobar} es un negativo`)
         }else{
-            console.log(`el numero ${numeroacomprobar} es menor a 10`)
+            console.log(`el numero ${numeroacomprobar} es un positivo`)
         }
     }
 }else{
